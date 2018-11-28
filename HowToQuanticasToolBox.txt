@@ -1,0 +1,14 @@
+# Create new env conda
+1-conda create -n py27 python=2.7 anaconda
+# solve this issue no attribute get_installed_distributions when we try to install the toolbox using python
+python -m pip install pip==9.0.3
+# Install the toolbox
+python setup.py install
+
+
+conda create -n py27 python=2.7 anaconda
+source activate py27
+python -m pip install pip==9.0.3
+python setup.py install
+
+

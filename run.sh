@@ -1,0 +1,9 @@
+nohup python svm_price_indicators.py > nohup_svm_price.out 2>&1&
+nohup python lr_price_indicators.py > nohup_lr_price.out 2>&1&
+nohup python rf_price_indicators.py > nohup_rf_price.out 2>&1&
+nohup python svm_price_cv.py > nohup_svm_price_cv.out 2>&1&
+nohup python lr_price_cv.py > nohup_lr_price_cv.out 2>&1&
+nohup python rf_price_cv.py > nohup_rf_price_cv.out 2>&1&
+nohup python svm_change_indicators.py > nohup_svm_change.out 2>&1&
+nohup python lr_change_indicators.py >  nohup_lr_change.out 2>&1&
+nohup python rf_change_indicators.py >  nohup_rf_change.out 2>&1&
